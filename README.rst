@@ -6,7 +6,7 @@ Reverse enumerate.
 Overview
 ========
 
-**renumerate** (sequence, start=len(sequence)-1, end=0):
+**renumerate(sequence, start=len(sequence)-1, end=0):**
 
   | Return an enumerate_ object.
   | *sequence* must be an object that has a __reversed__() method or supports the
