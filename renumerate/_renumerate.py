@@ -1,10 +1,14 @@
-# coding: utf-8
+# Copyright (c) 2016-2018 Adam Karpierz
+# Licensed under the zlib/libpng License
+# http://opensource.org/licenses/zlib
+
+__all__ = ('renumerate',)
+
 
 def renumerate(sequence, start=None, end=None):
 
-    """\
-    renumerate(sequence[, start]|[, end]) -> reverse iterator for index, value
-                                             of sequence
+    """renumerate(sequence[, start]|[, end]) -> reverse iterator for
+                                                index, value of sequence
 
     Return an enumerate object.  sequence must be another object that has a
     __reversed__() method or supports the sequence protocol (the __len__()
@@ -28,5 +32,3 @@ def renumerate(sequence, start=None, end=None):
 
     return ((-idx, elem) for idx, elem in enumerate(reversed(sequence),
                                                     start=-(start + end)))
-
-# eof

@@ -1,6 +1,20 @@
 Changelog
 =========
 
+1.0.1 (2018-01-24)
+------------------
+  - Update required Sphinx version.
+  - Update doc Sphinx configuration files.
+
+1.0.0 (2017-11-18)
+------------------
+  - Setup improvements.
+  - Other minor improvements.
+
+1.0.0b1 (2017-11-18)
+--------------------
+  - Minor improvements.
+
 0.3.4 (2017-01-05)
 ------------------
   - Minor setup improvements.
@@ -20,7 +34,7 @@ Changelog
 
 0.1.1 (2016-09-24)
 ------------------
-  - First beta release.
+  - First useful release.
 
 0.0.2 (2016-09-23)
 ------------------
