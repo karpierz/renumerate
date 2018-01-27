@@ -46,10 +46,6 @@ Equivalent to:
 Installation
 ============
 
-::
-
-    $ python -m pip install --upgrade renumerate
-
 Prerequisites:
 
 + Python 2.6 or higher
@@ -57,10 +53,35 @@ Prerequisites:
   * http://www.python.org/
   * 2.7 and 3.4 are primary test environments.
 
-+ pip or setuptools
++ pip and setuptools
 
   * http://pypi.python.org/pypi/pip
   * http://pypi.python.org/pypi/setuptools
+
+To install run::
+
+    python -m pip install --upgrade renumerate
+
+Development
+===========
+
+Visit `development page <https://github.com/karpierz/renumerate>`__
+
+Installation from sources:
+
+Clone the `sources <https://github.com/karpierz/renumerate>`__ and run::
+
+    python -m pip install ./renumerate
+
+or on development mode::
+
+    python -m pip install --editable ./renumerate
+
+Prerequisites:
+
++ Development is strictly based on *tox*. To install it run::
+
+    python -m pip install tox
 
 License
 =======
