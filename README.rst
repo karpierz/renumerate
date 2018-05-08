@@ -39,7 +39,7 @@ Equivalent to:
       if start is None: start = len(sequence) - 1
       if end   is None: end   = 0
       n = start + end
-      for elem in sequence:
+      for elem in reversed(sequence):
           yield n, elem
           n -= 1
 

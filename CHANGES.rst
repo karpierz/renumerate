@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.6 (2018-05-08)
+------------------
+  - Fix a bug in description.
+  - Update required setuptools version.
+  - Improve and simplify setup and packaging.
+
 1.0.5 (2018-02-26)
 ------------------
   - Improve and simplify setup and packaging.
