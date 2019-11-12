@@ -48,40 +48,52 @@ Installation
 
 Prerequisites:
 
-+ Python 2.7 or Python 3.4 or later
++ Python 3.5 or higher
 
-  * http://www.python.org/
-  * 2.7 and 3.7 are primary test environments.
+  * https://www.python.org/
+  * 3.7 is a primary test environment.
 
 + pip and setuptools
 
-  * http://pypi.org/project/pip/
-  * http://pypi.org/project/setuptools/
+  * https://pypi.org/project/pip/
+  * https://pypi.org/project/setuptools/
 
-To install run::
+To install run:
 
-    python -m pip install --upgrade renumerate
+.. parsed-literal::
+
+    python -m pip install --upgrade |package|
 
 Development
 ===========
 
-Visit `development page <https://github.com/karpierz/renumerate>`__
+Visit `development page`_.
 
 Installation from sources:
 
-Clone the `sources <https://github.com/karpierz/renumerate>`__ and run::
+clone the sources:
 
-    python -m pip install ./renumerate
+.. parsed-literal::
 
-or on development mode::
+    git clone |respository| |package|
 
-    python -m pip install --editable ./renumerate
+and run:
+
+.. parsed-literal::
+
+    python -m pip install ./|package|
+
+or on development mode:
+
+.. parsed-literal::
+
+    python -m pip install --editable ./|package|
 
 Prerequisites:
 
 + Development is strictly based on *tox*. To install it run::
 
-    python -m pip install tox
+    python -m pip install --upgrade tox
 
 License
 =======
@@ -89,7 +101,7 @@ License
   | Copyright (c) 2016-2019 Adam Karpierz
   |
   | Licensed under the zlib/libpng License
-  | http://opensource.org/licenses/zlib/
+  | https://opensource.org/licenses/zlib/
   | Please refer to the accompanying LICENSE file.
 
 Authors
@@ -97,6 +109,9 @@ Authors
 
 * Adam Karpierz <adam@karpierz.net>
 
+.. |package| replace:: renumerate
+.. |package_bold| replace:: **renumerate**
+.. |respository| replace:: https://github.com/karpierz/renumerate.git
 .. _`development page`: https://github.com/karpierz/renumerate/
 
-.. _enumerate: http://docs.python.org/library/functions.html#enumerate
+.. _enumerate: https://docs.python.org/library/functions.html#enumerate

@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.10 (2019-11-12)
+-------------------
+- Drop support for Python 3.4.
+- Add support for Python 3.8.
+- Setup update and cleanup.
+
 1.0.9 (2019-05-22)
 ------------------
 - Drop support for Python 2.
@@ -13,7 +19,7 @@ Changelog
 
 1.0.7 (2018-11-08)
 ------------------
-- Drop support for Python 2.6 and 3.0-3.3
+- Drop support for Python 2.6 and 3.0-3.3.
 - Update required setuptools version.
 
 1.0.6 (2018-05-08)
@@ -55,7 +61,7 @@ Changelog
 
 0.3.1 (2016-09-25)
 ------------------
-- More PEP8 compliant
+- More PEP8 compliant.
 
 0.2.2 (2016-09-24)
 ------------------
