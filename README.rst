@@ -112,6 +112,6 @@ Authors
 .. |package| replace:: renumerate
 .. |package_bold| replace:: **renumerate**
 .. |respository| replace:: https://github.com/karpierz/renumerate.git
-.. _`development page`: https://github.com/karpierz/renumerate/
+.. _development page: https://github.com/karpierz/renumerate/
 
 .. _enumerate: https://docs.python.org/library/functions.html#enumerate
