@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.11 (2020-09-17)
+-------------------
+- Add support for Python 3.9.
+- Setup general update and cleanup.
+
 1.0.10 (2019-11-12)
 -------------------
 - Drop support for Python 3.4.

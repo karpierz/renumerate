@@ -1,12 +1,11 @@
-# Copyright (c) 2016-2019 Adam Karpierz
+# Copyright (c) 2016-2020 Adam Karpierz
 # Licensed under the zlib/libpng License
-# https://opensource.org/licenses/zlib/
+# https://opensource.org/licenses/Zlib
 
 __all__ = ('renumerate',)
 
 
 def renumerate(sequence, start=None, end=None):
-
     """renumerate(sequence[, start]|[, end]) -> reverse iterator for
                                                 index, value of sequence
 
