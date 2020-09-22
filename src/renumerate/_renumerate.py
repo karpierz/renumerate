@@ -18,16 +18,12 @@ def renumerate(sequence, start=None, end=None):
     renumerate is useful for obtaining an indexed list in reverse order:
         (2, seq[2]), (1, seq[1]), (0, seq[0]), ...
     """
-
     if start is not None and end is not None:
         raise TypeError("renumerate() only accepts start argument or "
                         "end argument - not both.")
-
     if start is None:
         start = len(sequence) - 1
-
     if end is None:
         end = 0
-
     return ((-idx, elem) for idx, elem in enumerate(reversed(sequence),
                                                     start=-(start + end)))
