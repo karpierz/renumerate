@@ -8,14 +8,19 @@ Overview
 
 **renumerate(sequence, start=len(sequence)-1, end=0):**
 
-  | Return an enumerate_ object.
-  | *sequence* must be an object that has a __reversed__() method or supports the
-  | sequence protocol (the __len__() method and the __getitem__() method with
-  | integer arguments starting at 0).
-  | The __next__() method of the iterator returned by renumerate() returns a tuple
-  | containing a count (from *start* which defaults to len(*sequence*) - 1 or ends at
-  | *end* which defaults to 0 - but not both) and the values obtained from reverse
-  | iterating over *sequence*.
+| Return an enumerate_ object.
+| *sequence* must be an object that has a __reversed__() method or supports the
+| sequence protocol (the __len__() method and the __getitem__() method with
+| integer arguments starting at 0).
+| The __next__() method of the iterator returned by renumerate() returns a tuple
+| containing a count (from *start* which defaults to len(*sequence*) - 1 or ends at
+| *end* which defaults to 0 - but not both) and the values obtained from reverse
+| iterating over *sequence*.
+
+`PyPI record`_.
+
+Usage
+-----
 
 .. code:: python
 
@@ -60,7 +65,7 @@ Prerequisites:
 
 To install run:
 
-.. parsed-literal::
+  .. parsed-literal::
 
     python -m pip install --upgrade |package|
 
@@ -79,19 +84,19 @@ Installation from sources:
 
 clone the sources:
 
-.. parsed-literal::
+  .. parsed-literal::
 
     git clone |respository| |package|
 
 and run:
 
-.. parsed-literal::
+  .. parsed-literal::
 
     python -m pip install ./|package|
 
 or on development mode:
 
-.. parsed-literal::
+  .. parsed-literal::
 
     python -m pip install --editable ./|package|
 
@@ -99,7 +104,6 @@ License
 =======
 
   | Copyright (c) 2016-2020 Adam Karpierz
-  |
   | Licensed under the zlib/libpng License
   | https://opensource.org/licenses/Zlib
   | Please refer to the accompanying LICENSE file.
@@ -112,7 +116,6 @@ Authors
 .. |package| replace:: renumerate
 .. |package_bold| replace:: **renumerate**
 .. |respository| replace:: https://github.com/karpierz/renumerate.git
-.. _PyPI record: https://pypi.org/project/renumerate/
 .. _development page: https://github.com/karpierz/renumerate/
-
+.. _PyPI record: https://pypi.org/project/renumerate/
 .. _enumerate: https://docs.python.org/library/functions.html#enumerate
