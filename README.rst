@@ -10,12 +10,12 @@ Overview
 
 | Return an enumerate_ object.
 | *sequence* must be an object that has a __reversed__() method or supports the
-| sequence protocol (the __len__() method and the __getitem__() method with
-| integer arguments starting at 0).
+  sequence protocol (the __len__() method and the __getitem__() method with
+  integer arguments starting at 0).
 | The __next__() method of the iterator returned by renumerate() returns a tuple
-| containing a count (from *start* which defaults to len(*sequence*) - 1 or ends at
-| *end* which defaults to 0 - but not both) and the values obtained from reverse
-| iterating over *sequence*.
+  containing a count (from *start* which defaults to len(*sequence*) - 1 or ends at
+  *end* which defaults to 0 - but not both) and the values obtained from reverse
+  iterating over *sequence*.
 
 `PyPI record`_.
 
