@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.1 (2020-09-23)
+1.1.2 (2020-09-30)
 ------------------
 - Drop support for Python 3.5.
 - Add unittests.

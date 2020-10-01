@@ -2,6 +2,5 @@
 # Licensed under the zlib/libpng License
 # https://opensource.org/licenses/Zlib
 
-from .__about__   import *  # noqa
-from ._renumerate import *  # noqa
-del __about__, _renumerate
+from .__about__   import * ; del __about__    # noqa
+from ._renumerate import * ; del _renumerate  # noqa
