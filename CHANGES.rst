@@ -1,25 +1,19 @@
 Changelog
 =========
 
-1.1.2 (2020-09-30)
+1.1.3 (2020-10-17)
 ------------------
 - Drop support for Python 3.5.
 - Add unittests.
+- Fixed docs setup.
 
 1.0.13 (2020-09-22)
 -------------------
-- Setup: fix an improper dependencies versions.
-
-1.0.12 (2020-09-20)
--------------------
 - Add support for Python 3.9.
-- Setup general update and cleanup.
-
-1.0.10 (2019-11-12)
--------------------
-- Drop support for Python 3.4.
 - Add support for Python 3.8.
-- Setup update and cleanup.
+- Drop support for Python 3.4.
+- Setup: fix an improper dependencies versions.
+- Setup general update and cleanup.
 
 1.0.9 (2019-05-22)
 ------------------
