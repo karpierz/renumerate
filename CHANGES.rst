@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.1.5 (2021-07-20)
+------------------
+- Setup general update and improvement.
+
 1.1.4 (2020-10-18)
 ------------------
 - Drop support for Python 3.5.
