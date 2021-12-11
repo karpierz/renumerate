@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.1.6 (2021-12-11)
+------------------
+- Setup update.
+
 1.1.5 (2021-07-20)
 ------------------
 - Setup general update and improvement.
