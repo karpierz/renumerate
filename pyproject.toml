@@ -71,13 +71,13 @@ test = [
 'Issues'        = 'https://github.com/karpierz/renumerate/issues'
 
 [project.scripts]
-#sample-cli = "pkg_about:main_cli"
+#sample-cli = "renumerate:main_cli"
 
 [project.gui-scripts]
-#sample-gui = "pkg_about:main_gui"
+#sample-gui = "renumerate:main_gui"
 
-[project.entry-points."pkg_about.magical"]
-#epoint = "pkg_about:main_epoint"
+[project.entry-points."renumerate.magical"]
+#epoint = "renumerate:main_epoint"
 
 [tool.distutils.bdist_wheel]
 #universal = false # false is default
