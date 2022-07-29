@@ -64,23 +64,20 @@ test = [
     'deepdiff>=5.8.1',
 ]
 [project.urls]
-'Homepage'      = 'https://pypi.org/project/renumerate/'
-'Documentation' = 'https://renumerate.readthedocs.io/'
-'Download'      = 'https://pypi.org/project/renumerate/'
-'Source'        = 'https://github.com/karpierz/renumerate'
-'Issues'        = 'https://github.com/karpierz/renumerate/issues'
+Homepage      = 'https://pypi.org/project/renumerate/'
+Documentation = 'https://renumerate.readthedocs.io/'
+Download      = 'https://pypi.org/project/renumerate/'
+Source        = 'https://github.com/karpierz/renumerate'
+Issues        = 'https://github.com/karpierz/renumerate/issues'
 
 [project.scripts]
-#sample-cli = "renumerate:main_cli"
+#renumerate = 'renumerate.__main__:main'
 
 [project.gui-scripts]
-#sample-gui = "renumerate:main_gui"
+#renumerate-gui = 'renumerate:main_gui'
 
-[project.entry-points."renumerate.magical"]
-#epoint = "renumerate:main_epoint"
-
-[tool.distutils.bdist_wheel]
-#universal = false # false is default
+#[project.entry-points.'renumerate.magical']
+#epoint = 'renumerate:main_epoint'
 
 [tool.setuptools.dynamic]
 readme = { file = ['README.rst', 'CHANGES.rst'], content-type = 'text/x-rst; charset=UTF-8' }
@@ -100,7 +97,8 @@ where = ['src']
 #'renumerate.tests' = 'tests'
 
 [tool.setuptools.package-data]
-renumerate = []
+renumerate = [
+]
 
 [tool.coverage.run]
 source = [

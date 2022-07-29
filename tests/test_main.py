@@ -8,7 +8,7 @@ import types
 from renumerate import renumerate
 
 
-class RenumerateTestCase(unittest.TestCase):
+class MainTestCase(unittest.TestCase):
 
     def setUp(self):
         self.seasons = ["Spring", "Summer", "Fall", "Winter"]
