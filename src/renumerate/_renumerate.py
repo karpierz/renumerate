@@ -6,8 +6,9 @@ __all__ = ('renumerate',)
 
 
 def renumerate(sequence, start=None, end=None):
-    """renumerate(sequence[, start]|[, end]) -> reverse iterator for
-                                                index, value of sequence
+    """Reverse iterator for index, value of sequence.
+
+    renumerate(sequence[, start]|[, end]) -> reverse iterator
 
     Return an enumerate object.  sequence must be another object that has a
     __reversed__() method or supports the sequence protocol (the __len__()
