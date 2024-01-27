@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1.11 (2024-01-26)
+-------------------
+- Setup update (now based on tox >= 4.0).
+- Cleanup.
+
 1.1.10 (2022-10-18)
 -------------------
 - Tox configuration has been moved to pyproject.toml
