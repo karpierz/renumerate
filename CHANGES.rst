@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.11 (2024-01-26)
+1.1.12 (2024-01-26)
 -------------------
 - Setup update (now based on tox >= 4.0).
 - Cleanup.
