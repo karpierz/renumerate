@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1.14 (2024-08-13)
+-------------------
+- Add support for Python 3.13
+- Setup (dependencies) update.
+
 1.1.13 (2024-07-15)
 -------------------
 - Setup (dependencies) update.
