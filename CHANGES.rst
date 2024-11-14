@@ -1,15 +1,19 @@
 Changelog
 =========
 
+1.2.3 (2024-11-13)
+------------------
+- More unittests.
+- 100% code coverage.
+- 100% code linting.
+- Tox configuration is now in native (toml) format.
+- Setup (dependencies) update.
+
 1.2.2 (2024-10-30)
 ------------------
 - Setup (dependencies) update.
 
 1.2.1 (2024-10-09)
-------------------
-- Setup (dependencies) update.
-
-1.2.0 (2024-09-30)
 ------------------
 - Drop support for Python 3.8
 - Setup (dependencies) update.
@@ -17,10 +21,6 @@ Changelog
 1.1.14 (2024-08-13)
 -------------------
 - Add support for Python 3.13
-- Setup (dependencies) update.
-
-1.1.13 (2024-07-15)
--------------------
 - Setup (dependencies) update.
 
 1.1.12 (2024-01-26)
@@ -34,10 +34,6 @@ Changelog
 
 1.1.9 (2022-08-22)
 ------------------
-- Setup update.
-
-1.1.8 (2022-07-24)
-------------------
 - Add support for Python 3.10 and 3.11
 - Setup update (currently based mainly on pyproject.toml).
 
@@ -45,10 +41,6 @@ Changelog
 ------------------
 - Drop support for Python 3.6.
 - Copyright year update.
-- Setup update.
-
-1.1.6 (2021-12-11)
-------------------
 - Setup update.
 
 1.1.5 (2021-07-20)
