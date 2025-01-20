@@ -116,7 +116,7 @@ Authors
 
 .. |package| replace:: renumerate
 .. |package_bold| replace:: **renumerate**
-.. |copyright| replace:: Copyright (c) 2016-2024 Adam Karpierz
+.. |copyright| replace:: Copyright (c) 2016-2025 Adam Karpierz
 .. |respository| replace:: https://github.com/karpierz/renumerate.git
 .. _Development page: https://github.com/karpierz/renumerate
 .. _PyPI record: https://pypi.org/project/renumerate/
