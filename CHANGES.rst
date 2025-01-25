@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.2.6 (2025-01-25)
+------------------
+- Setup (dependencies) update.
+
 1.2.5 (2025-01-20)
 ------------------
 - Copyright year update.
