@@ -7,7 +7,7 @@ requires = ['setuptools>=77.0.3', 'packaging>=24.2.0', 'tox>=4.24.2']
 
 [project]
 name        = 'renumerate'
-version     = '1.2.9'
+version     = '1.2.10'
 description = 'Reverse enumerate.'
 urls.Homepage      = 'https://pypi.org/project/renumerate/'
 urls.Documentation = 'https://renumerate.readthedocs.io/'
