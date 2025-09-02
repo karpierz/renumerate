@@ -3,8 +3,13 @@
 
 __all__ = ('renumerate',)
 
+from typing import Any
+from collections.abc import Sequence, Generator
 
-def renumerate(sequence, start=None, end=None):
+
+def renumerate(sequence: Sequence[Any],
+               start: int | None = None,
+               end:   int | None = None) -> Generator[tuple[int, Any]]:
     """Reverse iterator for index, value of sequence.
 
     renumerate(sequence[, start]|[, end]) -> reverse iterator
