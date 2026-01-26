@@ -1,63 +1,72 @@
 Changelog
 =========
 
+2.1.1 (2026-01-26)
+------------------
+- Marked the package as typed.
+- Copyright year update.
+- Switched from tox to Nox for project automation.
+- The documentation has been moved from Read the Docs to GitHub Pages.
+- Added the nox's 'cleanup' test environment.
+- Setup update (mainly dependencies) and bug fixes.
+
 1.5.0 (2025-09-01)
 ------------------
-- Making the package typed.
-- Setup (dependencies) update.
+- Made the package typed.
+- Setup update (mainly dependencies).
 
 1.3.5 (2025-07-07)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.3.4 (2025-06-11)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.3.3 (2025-05-15)
 ------------------
-- The distribution is now created using 'build' instead of 'setuptools'.
-- Setup (dependencies) update (due to regressions in tox and setuptools).
+- The distribution is now built using 'build' instead of 'setuptools'.
+- Setup update (mainly dependencies) (due to regressions in tox and setuptools).
 
 1.3.1 (2025-05-04)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.3.0 (2025-04-28)
 ------------------
-- Add support for Python 3.14
-- Drop support for Python 3.9 (due to compatibility issues).
-- Update readthedocs's python to version 3.13
-- Update tox's base_python to version 3.13
-- Setup (dependencies) update.
+- Added support for Python 3.14
+- Dropped support for Python 3.9 (due to compatibility issues).
+- Updated Read the Docs' Python version to 3.13
+- Updated tox's base_python to version 3.13
+- Setup update (mainly dependencies).
 
 1.2.11 (2025-03-20)
 -------------------
-- Add support for PyPy 3.11
-- Drop support for PyPy 3.9
-- Setup (dependencies) update.
+- Added support for PyPy 3.11
+- Dropped support for PyPy 3.9
+- Setup update (mainly dependencies).
 
 1.2.8 (2025-03-15)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.7 (2025-02-14)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.6 (2025-01-25)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.5 (2025-01-20)
 ------------------
 - Copyright year update.
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.4 (2024-12-13)
 ------------------
 - Source distribution (\*.tar.gz now) is compliant with PEP-0625.
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.3 (2024-11-13)
 ------------------
@@ -65,21 +74,21 @@ Changelog
 - 100% code linting.
 - 100% code coverage.
 - Tox configuration is now in native (toml) format.
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.2 (2024-10-30)
 ------------------
-- Setup (dependencies) update.
+- Setup update (mainly dependencies).
 
 1.2.1 (2024-10-09)
 ------------------
-- Drop support for Python 3.8
-- Setup (dependencies) update.
+- Dropped support for Python 3.8
+- Setup update (mainly dependencies).
 
 1.1.14 (2024-08-13)
 -------------------
-- Add support for Python 3.13
-- Setup (dependencies) update.
+- Added support for Python 3.13
+- Setup update (mainly dependencies).
 
 1.1.12 (2024-01-26)
 -------------------
@@ -88,16 +97,16 @@ Changelog
 
 1.1.10 (2022-10-18)
 -------------------
-- Tox configuration has been moved to pyproject.toml
+- The tox configuration has been moved to pyproject.toml
 
 1.1.9 (2022-08-22)
 ------------------
-- Add support for Python 3.10 and 3.11
+- Added support for Python 3.10 and 3.11
 - Setup update (currently based mainly on pyproject.toml).
 
 1.1.7 (2022-01-10)
 ------------------
-- Drop support for Python 3.6.
+- Dropped support for Python 3.6.
 - Copyright year update.
 - Setup update.
 
@@ -107,20 +116,20 @@ Changelog
 
 1.1.4 (2020-10-18)
 ------------------
-- Drop support for Python 3.5.
+- Dropped support for Python 3.5.
 - Add unittests.
 - Fixed docs setup.
 
 1.0.13 (2020-09-22)
 -------------------
-- Add support for Python 3.8 and 3.9.
-- Drop support for Python 3.4.
+- Added support for Python 3.8 and 3.9.
+- Dropped support for Python 3.4.
 - Setup: fix an improper dependencies versions.
 - Setup general update and cleanup.
 
 1.0.9 (2019-05-22)
 ------------------
-- Drop support for Python 2.
+- Dropped support for Python 2.
 
 1.0.8 (2019-05-21)
 ------------------
@@ -130,7 +139,7 @@ Changelog
 
 1.0.7 (2018-11-08)
 ------------------
-- Drop support for Python 2.6 and 3.0-3.3.
+- Dropped support for Python 2.6 and 3.0-3.3.
 - Update required setuptools version.
 
 1.0.6 (2018-05-08)

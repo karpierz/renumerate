@@ -6,7 +6,7 @@ Reverse enumerate.
 Overview
 ========
 
-**renumerate(sequence, start=len(sequence)-1, end=0):**
+**renumerate(sequence, start=len(sequence)-1, end=0)**
 
 | Return an enumerate_ object.
 | *sequence* must be an object that has a __reversed__() method or supports the
@@ -59,10 +59,9 @@ Prerequisites:
 
   * https://www.python.org/
 
-+ pip and setuptools
++ pip
 
   * https://pypi.org/project/pip/
-  * https://pypi.org/project/setuptools/
 
 To install run:
 
@@ -75,9 +74,9 @@ Development
 
 Prerequisites:
 
-+ Development is strictly based on *tox*. To install it run::
++ Development is strictly based on *nox*. To install it run::
 
-    python -m pip install --upgrade tox
+    python -m pip install --upgrade nox
 
 Visit `Development page`_.
 
@@ -114,11 +113,22 @@ Authors
 
 * Adam Karpierz <adam@karpierz.net>
 
+Sponsoring
+==========
+
+| If you would like to sponsor the development of this project, your contribution
+  is greatly appreciated.
+| As I am now retired, any support helps me dedicate more time to maintaining and
+  improving this work.
+
+`Donate`_
+
 .. |package| replace:: renumerate
 .. |package_bold| replace:: **renumerate**
-.. |copyright| replace:: Copyright (c) 2016-2025 Adam Karpierz
-.. |respository| replace:: https://github.com/karpierz/renumerate.git
+.. |copyright| replace:: Copyright (c) 2016-2026 Adam Karpierz
+.. |respository| replace:: https://github.com/karpierz/renumerate
 .. _Development page: https://github.com/karpierz/renumerate
 .. _PyPI record: https://pypi.org/project/renumerate/
-.. _Documentation: https://renumerate.readthedocs.io/
+.. _Documentation: https://karpierz.github.io/renumerate/
+.. _Donate: https://www.paypal.com/donate/?hosted_button_id=FX8L7CJUGLW7S
 .. _enumerate: https://docs.python.org/library/functions.html#enumerate
