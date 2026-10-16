@@ -1,7 +1,9 @@
 # Copyright (c) 2016 Adam Karpierz
 # SPDX-License-Identifier: Zlib
 
-__all__ = ('renumerate',)
+from __future__ import annotations
+
+__all__ = ("renumerate",)
 
 from typing import Any
 from collections.abc import Sequence, Generator
